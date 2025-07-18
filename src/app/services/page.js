@@ -213,17 +213,17 @@ export default function Services() {
             {[
               {
                 quote: "The perfect getaway! Impeccable service and stunning views.",
-                author: "Sarah M.",
+                author: "Sneha Patil",
                 rating: "★★★★★"
               },
               {
                 quote: "Our family vacation was magical thanks to the wonderful staff.",
-                author: "The Johnson Family",
+                author: "Abdul Ali",
                 rating: "★★★★★"
               },
               {
                 quote: "Business trips are actually enjoyable when staying here.",
-                author: "Michael T.",
+                author: "Rahul Mehta",
                 rating: "★★★★☆"
               }
             ].map((testimonial, index) => (
