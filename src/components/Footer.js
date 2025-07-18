@@ -79,7 +79,7 @@ export default function Footer() {
           <h3 className="text-xl font-semibold mb-4 text-muted">Follow Us</h3>
           <p className="mb-4">Stay connected with us on social media for special offers and updates.</p>
           <div className="flex gap-4">
-            <a href="https://www.instagram.com/arfat__hr/" className="text-white hover:text-primary/40 text-2xl transition-colors duration-300">
+            <a href="https://www.instagram.com/" className="text-white hover:text-primary/40 text-2xl transition-colors duration-300">
               <FaInstagram />
             </a>
             <a
@@ -92,7 +92,7 @@ export default function Footer() {
 </a>
 
 <a
-  href="https://www.youtube.com/@smart_trips"
+  href="https://www.youtube.com/"
   target="_blank"
   rel="noopener noreferrer"
   className="text-white hover:text-primary/40 text-2xl transition-colors duration-300"
