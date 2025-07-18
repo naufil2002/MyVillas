@@ -265,7 +265,7 @@ Message: ${message}`;
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-800">Email</h3>
-                    <p className="text-gray-600">Myvilla@gmail.com</p>
+                    <p className="text-gray-600">Myvillas@gmail.com</p>
                     {/* <p className="text-gray-600">reservations@villa.com</p> */}
                   </div>
                 </div>

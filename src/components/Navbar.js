@@ -57,7 +57,7 @@ export default function Navbar() {
               <Link href="/services" onClick={toggleMenu} className={`px-3 py-2 ${pathname === "/services" ? "text-primary font-semibold" : ""}`}>Services</Link>
               <Link href="/contact" onClick={toggleMenu} className={`px-3 py-2 ${pathname === "/contact" ? "text-primary font-semibold" : ""}`}>Contact</Link>
               <Link href="/booking" onClick={toggleMenu} className="bg-primary text-white px-3 py-2 rounded-md hover:bg-primary/90 transition">
-                Book Now
+                <div className="text-center">Book Now</div>
               </Link>
             </motion.div>
           )}

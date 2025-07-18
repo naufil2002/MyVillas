@@ -44,7 +44,7 @@ export default function Footer() {
             </li>
             <li className="flex items-center gap-3">
               <MdEmail className="text-primary/40" />
-              Myvilla@gmail.com
+              Myvillas@gmail.com
             </li>
           </ul>
         </div>
