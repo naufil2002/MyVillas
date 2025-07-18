@@ -506,9 +506,9 @@ const openModal = (room) => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }}
           transition={{
-            duration: 0.5,
+            duration: 0.2,
             ease: "easeOut",
-            delay: index * 0.2,
+            delay: index * 0.1,
           }}
           className="relative group bg-secondary/50 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 cursor-pointer"
           onClick={() => openModal(room)}

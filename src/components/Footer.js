@@ -38,14 +38,19 @@ export default function Footer() {
               <FaMapMarkerAlt className="text-primary/40" />
               Mumbai, Maharastra.
             </li>
-            <li className="flex items-center gap-3">
-              <FaPhoneAlt className="text-primary/40" />
-              +91 9834070695
-            </li>
-            <li className="flex items-center gap-3">
-              <MdEmail className="text-primary/40" />
-              Myvillas@gmail.com
-            </li>
+             <li className="flex items-center gap-3">
+      <FaPhoneAlt className="text-primary/40" />
+      <a href="tel:+919834070695">
+        +91 9834070695
+      </a>
+    </li>
+
+    <li className="flex items-center gap-3">
+      <MdEmail className="text-primary/40" />
+      <a href="mailto:Myvillas@gmail.com">
+        Myvillas@gmail.com
+      </a>
+    </li>
           </ul>
         </div>
 
@@ -110,7 +115,7 @@ export default function Footer() {
 
       {/* Bottom Text */}
       <div className="text-center py-4 text-sm bg-secondary/80 text-black/50" >
-        © {new Date().getFullYear()} WebHub Technologees. All rights reserved.
+        © {new Date().getFullYear()} WebHub Technologies. All rights reserved.
       </div>
     </footer>
   );
