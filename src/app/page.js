@@ -619,7 +619,7 @@ const openModal = (room) => {
                 </div>
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-4 mt-8">
+              <div className="flex justify-center sm:flex-row gap-4 mt-8">
                 <a href="/booking">
                   <button className="flex-1 bg-primary text-white py-3 px-6 rounded-lg hover:bg-primary/90 transition-colors font-medium cursor-pointer">
                     Book Now
